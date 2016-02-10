@@ -1,0 +1,39 @@
+form {
+
+}
+
+div {
+border: 1px solid;
+margin: 0 auto;
+width: 50%;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #555;
+	display: block;
+	width: 100%;
+	padding: 4px 7px;
+}
+
+p {
+	font: 10pt;
+	text-align: center;
+}
+
+input[type='submit'] {
+	width: 30%;
+	margin: 0 auto;
+	border-bottom: none;
+}
+
+#helpLinks {
+	list-style: none;
+	width: 50%;
+	margin: 0 auto;	
+}
+
+#helpLinks li {
+	float: left;
+	margin-right: 5px;
+}
