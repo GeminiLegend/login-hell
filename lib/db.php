@@ -1,4 +1,5 @@
 <?php
+// creating the database
 session_start();
 ob_start();
 
@@ -11,8 +12,11 @@ $port	= 3306;
 $debug 	= false;
 
 // $link 	= mysql_connect($server,$user,$pass);
+// linking the php ot the database
+// $mysqli is a class
 $mysqli = new mysqli($server, $user, $pass, $db, $port);
 
+// displays if the connection was successful
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();

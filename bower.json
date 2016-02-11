@@ -1,0 +1,23 @@
+{
+  "name": "php_login",
+  "homepage": "https://github.com/GeminiLegend/login-hell",
+  "authors": [
+    "Marius Talpos <andreitalpos@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
