@@ -7,6 +7,7 @@
 if(array_key_exists('auth', $_SESSION)){
 	$auth 		= (string) $_SESSION['auth'];
 	$username 	= $_SESSION['username'];
+	echo "welcome ot the matrix, Mr Anderson.";
 } else/* if the query was unsuccessful auth is false */ {
 	$auth = 'false';
 }
@@ -15,6 +16,6 @@ if(array_key_exists('auth', $_SESSION)){
 <?php require('header.php'); ?>
 	<!-- echo's out if user is authed -->
 	<script type="text/javascript">
-		var authed = <?php echo $auth; ?>;
+		var auth = <?php echo $auth; ?>;
 	</script>
 <?php require('footer.php'); ?>
